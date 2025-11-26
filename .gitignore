@@ -1,0 +1,19 @@
+Python environment and cache
+
+venv/
+pycache/
+*.pyc
+.pytest_cache/
+
+Database files
+
+*.sqlite
+*.db
+smart_farm.db
+ai_irrigation_log.csv
+
+AI Model files (often too big for Git, unless you use Git LFS)
+
+*.pkl
+*.h5
+plant_disease_tomato_tf/

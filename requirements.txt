@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+requests # Needed for RPi scripts, though not strictly for the server itself
