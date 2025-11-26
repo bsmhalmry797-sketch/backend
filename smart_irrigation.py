@@ -35,7 +35,7 @@ MAX_MIN_PER_HOUR = 8
 HOURLY_BUCKET = 3600
 
 # ----------- Server Settings (MUST BE UPDATED) -----------
-API_URL = "http://192.168.137.10:8000" 
+API_URL = "https://backend-qkbr.onrender.com" 
 SENSOR_DATA_ENDPOINT = f"{API_URL}/data/sensor/"
 CONTROL_STATUS_ENDPOINT = f"{API_URL}/control/status/" # New path to fetch control status
 REPORT_INTERVAL = 5 # Send data every 5 seconds
