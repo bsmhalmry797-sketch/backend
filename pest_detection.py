@@ -16,8 +16,8 @@ IMG_SIZE = (150, 150)
 CONF_TH = 0.85 # Increased confidence level to reduce false alerts
 
 # ----------- Server Settings (MUST BE UPDATED) -----------
-# If the server is running locally on 192.168.1.X
-API_URL = "http://192.168.137.10:8000" 
+# the server is running on render
+API_URL = "https://backend-qkbr.onrender.com" 
 PEST_REPORT_ENDPOINT = f"{API_URL}/data/pest-report/"
 PLANT_NAME = "Tomato" # Can be modified
 
