@@ -253,6 +253,13 @@ app = FastAPI(
     version="1.0.0",
 )
 
+# --- NEW: ROOT PATH ---
+@app.get("/", tags=["Status"], summary="Server Health Check")
+def read_root():
+    """Returns a simple message to confirm the server is operational."""
+    return {"message": "GHIRASS Smart Farm API is running successfully!"}
+# ---
+
 # ----------------- Control Paths -----------------
 
 @app.put("/control/manual/", response_model=ManualControlStatus, tags=["Control"])
